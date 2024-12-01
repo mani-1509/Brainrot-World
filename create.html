@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Chaos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ideas.html">Ideas</a></li>
+          <li><a href="create.html">Create</a></li>
+          <li><a href="quotes.html">Quotes</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="create" class="section animated">
+        <h2>Contribute Your Chaotic Ideas!</h2>
+        <form id="chaos-form" class="animated">
+          <label for="chaos-idea">Your Chaotic Idea:</label>
+          <input
+            type="text"
+            id="chaos-idea"
+            placeholder="Enter your mind-melting idea"
+            required
+          />
+          <button type="submit" class="animated">Submit Your Idea</button>
+        </form>
+        <div id="idea-feedback" class="feedback"></div>
+      </section>
+
+      <section id="chaos-gallery" class="section animated">
+        <h2>Check Out Some Chaotic Creations!</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="images/chaotic-project-1.jpg" alt="Chaotic Project 1" />
+            <p>Project: Hovering Coffee Mug</p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/chaotic-project-2.jpg" alt="Chaotic Project 2" />
+            <p>Project: Floating Bed Frame</p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/chaotic-project-3.jpg" alt="Chaotic Project 3" />
+            <p>Project: Electric Couch That Recharges Your Phone</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Brainrot World</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
