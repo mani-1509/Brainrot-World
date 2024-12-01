@@ -3,7 +3,7 @@ Welcome to Brainrot World, a chaotic creative space where we embrace the madness
   
 ## Demo
 You can view the live demo of the Brainrot World website here:
-
+http://mani-1509.github.io/Brainrot-World/
 
 ## Features
 - Brainrot Ideas: Get inspired with crazy and out-of-the-box ideas that can change the world.
